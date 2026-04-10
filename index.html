@@ -8,8 +8,37 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+<nav class="navbar navbar-expand-sm navbar-dark bg-white">
+  <div class="container-fluid" style="background-color: crimson;">
+    <a class="navbar-brand" href="javascript:void(0)"><img src="img/logo_node_js.png" style="width: 80px;" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Link</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<br>
     
     <div class="container">
+      <button type="button" class="btn">Basic</button>
+      <button type="button" class="btn btn-primary">Primary</button>
             <!-- Carousel -->
 <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
@@ -18,6 +47,8 @@
     <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
     <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
     <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
   </div>
 
   <!-- The slideshow/carousel -->
@@ -31,6 +62,12 @@
     <div class="carousel-item">
       <img src="img/img-3.jpg" alt="New York" class="d-block w-100">
     </div>
+    <div class="carousel-item">
+      <img src="img/img-4.jpeg" alt="New York" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="img/img-5.jpeg" alt="New York" class="d-block w-100">
+    </div>
   </div>
 
   <!-- Left and right controls/icons -->
@@ -43,13 +80,6 @@
 </div>
   </div>
     </div>
-    <button type="button" class="btn">Basic</button>
-    <button type="button" class="btn btn-primary">Primary</button>
-    <div class = "container">
-        <h1>container</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque totam quisquam itaque amet reprehenderit deserunt a nesciunt hic sed. Ipsum, labore atque animi minima quasi culpa consequuntur minus quam deleniti!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat libero ut aperiam saepe porro itaque cumque, magnam molestias illo labore, sed at soluta non amet fuga numquam officiis, esse rem?</p>
-    </div> 
 
     <div class="container-fluid">
         <h1>container-fluid</h1>
@@ -59,9 +89,11 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-sm-3"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque repudiandae assumenda ullam ab esse ut in consequatur voluptates eos sit corrupti, animi dolor? Iusto voluptas ipsum deserunt sint aliquam enim?</p></div>
+            <div class="col-sm-3"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque repudiandae 
+              assumenda ullam ab esse ut in consequatur voluptates eos sit corrupti, animi dolor? Iusto voluptas ipsum deserunt sint aliquam enim?</p></div>
             <div class="col-sm-3"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A culpa sint totam modi deleniti voluptas atque consectetur placeat aspernatur, saepe recusandae mollitia laboriosam quam in. Tenetur quidem hic dignissimos facere.</p></div>
             <div class="col-sm-3"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, quidem. Dolor, a ipsam? Corrupti nobis quasi earum consequatur fugiat illum? Facere nemo quidem at vitae voluptates dolor minima cupiditate recusandae.</p></div>
+             <div class="col-sm-3"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, quidem. Dolor, a ipsam? Corrupti nobis quasi earum consequatur fugiat illum? Facere nemo quidem at vitae voluptates dolor minima cupiditate recusandae.</p></div>
         </div>
     </div>
 
