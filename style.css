@@ -11,6 +11,7 @@ body {
     
 }
 
-.imagenes {
-    
+.container-fluid {
+    background-color: pink;
 }
+
